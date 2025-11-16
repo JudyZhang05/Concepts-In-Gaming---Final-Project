@@ -3,6 +3,9 @@
 ## Live Site Link: https://judyzhang05.github.io/Concepts-In-Gaming-Final-Project
 
 **Professor Amelia Marzec**
+
+<br>
+
 **MEDIA 36301: Concepts In Gaming**
 
 ### Collaborators:
