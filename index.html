@@ -7,9 +7,24 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  
-  
+  <div class="main-box">
+    CLEAN<br>MY<br>DESK<br>(please)
+  </div>
 
+  <div class="button-group">
+    <button onclick="alert('You got it!')">YOU GOT IT!</button>
+    <button onclick="alert('For free?!')">FOR FREE?!</button>
+  </div>
+
+  <div class="footer-arrow" onclick="handleArrowClick()">
+    ↑ If user presses on this, just remove the button entirely and prompt them with an alert saying “Yes” LOL
+  </div>
+
+  <script>
+    function handleArrowClick() {
+      document.querySelector('.footer-arrow').remove();
+      alert("Yes");
+    }
   <script src="script.js"></script>
 </body>
 </html>
